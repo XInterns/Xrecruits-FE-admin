@@ -1,0 +1,10 @@
+.tab-links{
+  display: flex;
+  justify-content: space-around;
+  
+}
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+
+}
