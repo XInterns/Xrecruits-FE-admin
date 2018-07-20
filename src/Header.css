@@ -1,5 +1,15 @@
-.Tab{
-    display: flex;
-    justify-content: space-around;
-    color: black;
-}
+
+.intro-text{
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+  }
+  .btn{
+    height: 50px;
+    width: 250px;
+    font-size: 30px;
+    border: 2px;
+    border-color: wheat;
+  }

@@ -1,0 +1,31 @@
+.tab-links{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(233, 224, 238);
+}
+        .logo{
+            margin-top: 50px;    
+            font-size: 40px;
+            color: rgb(145, 130, 153);
+        }
+        .home{
+            margin-top: 50px;
+            background: rgb(243, 237, 237); 
+            color: black;   
+        }
+        .add-user{
+              
+        }
+        .tabs{ 
+            background: rgb(243, 237, 237);
+        }
+        .evaluate{ 
+            
+        }
+        .deleteQuestions{ 
+          background: rgb(243, 237, 237);   
+        }

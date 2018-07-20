@@ -1,19 +1,22 @@
-import React from 'react'
-import Header from './Header'
-import Layout from './layout';
-import './App.css'
-
-class App extends React.Component{
-  render(){
-    return(
-      <div>
-        <Header />
-        <Layout />
+import React, { Component } from 'react';
+import './App.css';
+import Header from './Header.js';
+import About from './About';
+import Navbar from './Navbar';
+import Career from './Career';
+import Contact from './Contact';
+class App extends Component {
+  render() {
+    return (
+      <div className="app" id="page-top">
+        <Navbar/>
+        <Header/>
+        <About/>
+        <Career/>
+        <Contact/>
       </div>
-    )
+    );
   }
 }
 
 export default App;
-
-

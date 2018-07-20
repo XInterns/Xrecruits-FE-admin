@@ -1,0 +1,22 @@
+.navbar{
+    border-radius: 0px;
+    position: relative;
+  }
+  
+  .nav-item {
+    font-size: 18px;
+    
+  }
+  
+  .navbar-brand {
+    font-size: 25px;
+    color: aliceblue;
+  }
+  
+  #mainNav{
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: black;
+  }
+  
+  

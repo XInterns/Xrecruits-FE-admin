@@ -10,7 +10,7 @@ class Layout extends React.Component{
         return(
             <Switch>
                 <Route path='/user' component={User} />
-                <Route path='/addQuestions' component={Tab} />
+                <Route path='/tab' component={Tab} />
                 <Route path='/evaluate' component={Evaluate} />
                 <Route path='/deleteQuestions' component={Delete}/>
             </Switch>

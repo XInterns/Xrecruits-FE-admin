@@ -1,10 +1,25 @@
-.tab-links{
-  display: flex;
-  justify-content: space-around;
-  
-}
-a:-webkit-any-link {
-  color: black;
-  cursor: pointer;
+/* .app{
+  background:url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.d-flex {
+  text-align: center;
+  color: #fff;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
+
+.col-lg-12{
+  margin-top: 0%;
+}
+
+
