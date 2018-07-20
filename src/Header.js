@@ -7,6 +7,7 @@ class Header extends React.Component{
     {
         return(
             <div className="tab-links">
+                <Link to="/authUser">Authecticate User</Link>
                 <Link to="/user">Add User</Link>
                 <Link to="/addQuestions">Add Questions</Link>
                 <Link to="/evaluate">Evaluate Tests</Link>
