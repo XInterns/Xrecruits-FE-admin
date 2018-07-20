@@ -125,7 +125,7 @@ class Evaluate extends Component {
                         tr=table.insertRow(i)
                         tr.setAttribute('id', `tr${i}`);
                         tr.addEventListener('click', (row)=>{
-                            this.renderPopup(row.srcElement.parentNode.getAttribute('id'))
+                            this.renderPopup(row.target.parentNode.getAttribute('id'))
                         })
                         for(var h=0;h<Object.keys(result[0]).length;h++)
                         {
