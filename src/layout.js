@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import User from './addUserTab';
-import Tab from './Tab';
+import AddQues from './addQuestionTab';
 import Evaluate from './Evaluate';
 import Delete from './Delete';
 import Auth from './AuthUser';
